@@ -1,19 +1,211 @@
+/* Reset pagina */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* Tag */
+nav{
+    background-color: white;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+/* Libreria */
+.fixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 .flex{
     display: flex;
-    align-items: center;
+}
+
+.js-center{
+    justify-content: center;
 }
 
 .space-between{
     justify-content: space-between;
 }
 
+.margin-auto{
+    margin: auto;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.fs-20{
+font-size: 20px;
+}
+
+.padding-top-50{
+    padding-top: 50px;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+.border{
+    border: 1px solid gray;
+}
+
+.in-block{
+    display: inline-block;
+}
+
+/* classi */
 .nav-element{
     display: inline-block;
     margin: 10px 15px;
+}
+
+.nav-element > a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* container da 1 a */
+.container-1{
+    background-color: rgb(169, 223, 245);
+}
+
+/* Box da 1 a */
+.box-1{
+    width: 50%;
+}
+
+.box-2{
+    width: 50%;
+}
+
+.box-3{
+    width: 50%;
+}
+
+.box-4{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Box da a a  */
+.box-a{
+    width: 40%;
+}
+.box-b{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    position: relative;
+}
+
+.box-c{
+    /* background-color: red; */
+    /* height: 200px; */
+    border: 1px solid gray;
+    /* margin-right: 10px; */
+    width: 30%;
+   
+    
+}
+
+.box-d{
+    /* background-color: red; */
+    /* height: 200px; */
+    border: 1px solid gray;
+    width: 30%;
+}
+
+.box-e{
+    /* background-color: red; */
+    /* height: 200px; */
+    border: 1px solid gray;
+    width: 30%;
+}
+
+/* Bottoni e icone */
+.button-blue{
+    background-color: rgb(61, 61, 244);
+    padding: 10px 10px;
+}
+
+.button-blue > a{
+    text-decoration: none;
+    color: white;
+}
+
+.prova-gratis{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    font-size: 40px;   
+}
+
+.check-mens{
+    border-radius: 50%;
+    border: 3px solid blue;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.check-ann{
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.period{
+    color: gray;
 }
