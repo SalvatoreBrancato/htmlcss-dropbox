@@ -56,6 +56,10 @@ h3{
 .al-it-center{
     align-items: center;
 }
+
+.wrap{
+    flex-wrap: wrap ;
+}
 .margin-auto{
     margin: auto;
 }
@@ -176,6 +180,11 @@ h3{
     margin-top: 50px;
 }
 
+.box-7{
+    width: 50%;
+
+}
+
 /* Box da a a  */
 .box-a{
     width: 40%;
@@ -216,6 +225,14 @@ h3{
     margin-top: 70px;
 }
 
+.box-esempio{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
 .img-partner{
     width: 100%;  
 }
@@ -238,8 +255,8 @@ h3{
 }
 
 .prova-gratis{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .icon{
