@@ -57,6 +57,10 @@ h3{
     align-items: center;
 }
 
+.al-it-start{
+    align-items: start;
+}
+
 .wrap{
     flex-wrap: wrap ;
 }
@@ -73,6 +77,10 @@ h3{
 
 .mt-50{
     margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
 }
 
 .mb-10{
@@ -98,6 +106,9 @@ h3{
     margin-right: 10px;
 }
 
+.mr-30{
+    margin-right: 30px;
+}
 .fs-20{
     font-size: 20px;
 }
@@ -126,8 +137,6 @@ h3{
     text-align: left;
 }
 
-
-
 .border{
     border: 1px solid gray;
 }
@@ -136,6 +145,37 @@ h3{
     display: inline-block;
 }
 
+.bgc-acquamarine{
+    background-color: aquamarine;
+}
+
+.bgc-brown{
+    background-color: brown;
+}
+
+.bgc-blue{
+    background-color: rgb(105, 105, 235);
+}
+
+.bgc-skyblue{
+    background-color: skyblue;
+}
+
+.bgc-purple{
+    background-color: rgb(118, 2, 118);
+}
+
+.bgc-red{
+    background-color: red;
+}
+
+.bgc-yellow{
+    background-color: yellow;
+}
+
+.bgc-lightgray{
+    background-color: lightgray;
+}
 /* classi */
 .nav-element{
     display: inline-block;
@@ -225,16 +265,56 @@ h3{
     margin-top: 70px;
 }
 
-.box-esempio{
+.box-i{
+    width: 50%;
+}
+
+.box-cards{
     width: 30%;
-    height: 300px;
-    background-color: red;
-    border: 2px solid black;
+    /* height: 300px; */
+    /* background-color: red; */
+    /* border: 2px solid black; */
     margin-top: 20px;
+}
+
+.box-grande{
+    width: 99vw;
+    /* background-color: red; */
+    display: flex;
+    border: 2px solid black;
+}
+
+.box-medio{
+    width: calc(100% / 3);
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.box-piccolo{
+    /* height: 50%; */
+    width: 50%;
+    /* background-color: coral; */
+    border: 2px solid black;
 }
 
 .img-partner{
     width: 100%;  
+}
+
+.img-1{
+    width: 100%;
+}
+
+.img-2{
+    width: 100%;
+    /* padding: 50%; */
+}
+
+.img-2-a{
+    width: 50%;
+    /* padding: 50%; */
 }
 
 /* Bottoni e icone */
