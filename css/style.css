@@ -9,10 +9,10 @@ ul{
     list-style: none;
 }
 
+
 li{
     margin-top: 20px;
     margin-left: 10px;
-    /* text-indent: -1em; */
 }
 
 /* Tag */
@@ -20,6 +20,11 @@ nav{
     background-color: white;
     line-height: 25px;
     z-index: 1;
+}
+
+footer{
+    width: 99vw;
+    background-color: rgb(14, 14, 14);
 }
 
 h1{
@@ -68,9 +73,12 @@ h3{
 }
 
 .al-it-start{
-    align-items: start;
+    align-items: flex-start;
 }
 
+.flex-basis{
+    flex-basis: auto;
+}
 .wrap{
     flex-wrap: wrap ;
 }
@@ -202,6 +210,7 @@ h3{
 .absolute{
     position: absolute;
 }
+
 /* classi */
 .nav-element{
     display: inline-block;
@@ -257,7 +266,15 @@ h3{
 
 .box-7{
     width: 50%;
+}
 
+.box-8{
+    width: 50%;
+}
+
+.box-9{
+    width: 70%;
+    height: 400px;
 }
 
 /* Box da a a  */
@@ -308,37 +325,35 @@ h3{
 
 .box-l{
     width: 50%;
-    flex-basis: content;
+}
+
+.box-m{
+    width: calc(100% / 5);
+}
+
+.box-m > ul{
+    color: white;
+    font-size: 12px;
 }
 
 .box-cards{
     width: 30%;
-    /* height: 300px; */
-    /* background-color: red; */
-    /* border: 2px solid black; */
     margin-top: 20px;
 }
 
 .box-grande{
     width: 99vw;
-    /* background-color: red; */
     display: flex;
-    /* border: 2px solid black; */
 }
 
 .box-medio{
     width: calc(100% / 3);
-    /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid black; */
 }
 
 .box-piccolo{
-    /* height: 50%; */
     width: 50%;
-    /* background-color: coral; */
-    /* border: 2px solid black; */
 }
 
 .img-partner{
@@ -351,22 +366,23 @@ h3{
 
 .img-2{
     width: 40%;
-    /* padding: 50%; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .img-2-a{
     width: 50%;
-    /* padding: 50%; */
 }
 
 /* Bottoni e icone */
 .button-blue{
     background-color: rgb(61, 61, 244);
     padding: 10px 10px;
+}
+
+.button-blue:hover{
+    opacity: 0.8;
 }
 
 .button-blue > a{
@@ -380,11 +396,19 @@ h3{
     width: 50%;
 }
 
+.button-white:hover{
+    font-size: 22px;
+}
+
 .button-white-2{
     background-color: white;
     padding: 10px 10px;
     width: 25%;
     text-align: center;
+}
+
+.button-white-2:hover{
+    font-size: 18px;
 }
 
 .button-white-2 a{
@@ -404,6 +428,10 @@ h3{
 .fa-check{
     color: rgb(24, 170, 227);
     font: 18px;
+}
+
+.fa-earth-americas{
+    color: white;
 }
 
 .check-mens{
@@ -432,4 +460,35 @@ h3{
 
 .period{
     color: gray;
+}
+
+.domanda:hover + .risposta{
+    display: block;
+}
+
+.risposta{
+    display: none;
+    padding: 20px;
+}
+
+.domanda:hover + .icon-domanda{
+    display: none;
+}
+
+.icon-risposta{
+     display: none;
+}
+
+.titolo-ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ul-footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+.selettore{
+    bottom: 10px;
 }
