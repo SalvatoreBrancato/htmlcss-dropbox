@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="flex space-between fixed">
+        <nav class="flex space-between al-it-center fixed">
             <div class="flex jc-center">
                 <div class="nav-element">
                     <img src="./img/logo-small.png" alt="Logo Drophbox">
@@ -29,26 +29,26 @@
     </header>
     <main>
         <!-- I sezione -->
-        <section class="container-1 padding-top-50">
+        <section class="container-1 padding-top-50 h-650">
             <div class="box-1 margin-auto">
                 <h1 class="mt-30">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
-            <div class="box-2 flex js-center margin-auto">
-                <div class="box-a">
+            <div class="box-2 flex js-center margin-auto relative">
+                <div class="box-a absolute">
                     <p class="mt-30 mb-30 fs-20">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Drophbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                     <span class="button-blue mt-30 mb-30 fs-20">
                         <a href="#">Inizia la prova gratuita</a>
                     </span>
                     <div class="mt-30 fs-20">Annulla in qualsiasi momento</div>
-                    <div class="icon mt-30">&#8681;</div>
+                    <div class="icon mt-30"><i class="fa-solid fa-arrow-down"></i></div>
                 </div>
-                <div class="box-b mt-30"></div>
+                <div class="box-b mt-30 absolute"></div>
             </div>
         </section>
         <!-- II sezione -->
         <section>
             <div class="box-3 margin-auto">
-                <h2 class="margin-auto mt-30 mb-30">Trova il piano business che fa per te</h2>
+                <h2 class="margin-auto mt-100 mb-30">Trova il piano business che fa per te</h2>
                 <span class="mt-10"><div class="check-mens"></div>Fatturazione mensile</span>
                 <span class="mt-10"><div class="check-ann"></div>Fatturazione annuale</span>
             </div>
@@ -62,19 +62,34 @@
                     <div class="price mt-10 ml-10">€ 12,00</div>
                     <div class="period mt-10 mb-30 ml-10"> /mese</div>
                     <ul>
-                        <li><i class="fa-solid fa-user"></i> 1 utente</li>
-                        <li><i class="fa-solid fa-database"></i> 5 TB di spazio di archiviazione sicuro</li>
-                        <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="ml-10"> 1 utente</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-database"></i> 
+                            <span class="ml-10"> 5 TB di spazio di archiviazione sicuro</span>
+                        </li class="flex">
+                        <li class="flex">
+                            <i class="fa-solid fa-share-nodes"></i> 
+                            <span class="ml-10">Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                        </li>
                     </ul>
                     <div class="prova-gratis button-blue mt-50 mb-30 fs-20 in-block ta-center">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
-                    <div class="mb-30 ml-10">oppure <a href="#">acquista ora</a></div>
+                    <div class="mb-30 ml-30">oppure <a href="#">acquista ora</a></div>
                     <hr>
-                    <h4 class="mt-30 ml-10">Punti salienti del piano</h4>
+                    <h4 class="mt-30 ml-30">Punti salienti del piano</h4>
                     <ul>
-                        <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropobox transfert</li>
-                        <li><i class="fa-solid fa-check"></i> Cartelle off-line su dispositivi mobili</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i> 
+                            <span class="ml-10">Invia file fino a 100 GB con Dropobox transfert</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i> 
+                            <span class="ml-10">Cartelle off-line su dispositivi mobili</span>
+                        </li>
                     </ul>
                 </div>
                
@@ -86,22 +101,46 @@
                     <div class="price mt-10 ml-10">€ 18,00</div>
                     <div class="period mt-10 mb-30 ml-10"> /utente /mese</div>
                     <ul>
-                        <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
-                        <li><i class="fa-solid fa-database"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
-                        <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="ml-10"> 3 o più utenti</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-database"></i>
+                            <span class="ml-10"> Tutto lo spazio di cui ha bisogno il tuo team</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span class="ml-10"> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                        </li>
                     </ul>
                     <div class="prova-gratis button-blue mt-30 mb-30 fs-20 in-block ta-center">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
-                    <div class="mb-30 ml-10">oppure <a href="#">acquista ora</a></div>
+                    <div class="mb-30 ml-30">oppure <a href="#">acquista ora</a></div>
                     <hr>
-                    <h4 class="mt-30 ml-10">Punti salienti del piano</h4>
+                    <h4 class="mt-30 ml-30">Punti salienti del piano</h4>
                     <ul>
-                        <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
-                        <li><i class="fa-solid fa-check"></i> Cartelle off-line su dispositivi mobili</li>
-                        <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
-                        <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
-                        <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10"> Nessun limite di spazio per i file</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10"> Cartelle off-line su dispositivi mobili</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10"> Risparmio del 50% rispetto alle iscrizioni singole</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10"> Possibilità di inserire nuovi membri del team</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10"> Gestione dei permessi in base ai ruoli</span>
+                        </li>
                     </ul>
                 </div>
                
@@ -113,20 +152,38 @@
                     <div class="price mt-10 ml-10">Contattaci</div>
                     <div class="period mt-10 mb-30 ml-10"> -</div>
                     <ul>
-                        <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
-                        <li><i class="fa-solid fa-database"></i> Soluzioni personalizzabili per la tua azienda</li>
-                        <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-user"></i> 
+                            <span class="ml-10">10 o più utenti</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-database"></i> 
+                            <span class="ml-10">Soluzioni personalizzabili per la tua azienda</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-share-nodes"></i> 
+                            <span class="ml-10">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                        </li>
                     </ul>
                     <div class="prova-gratis button-blue mt-30 mb-30 fs-20 in-block ta-center">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
-                    <div class="mb-30 ml-10">oppure <a href="#">acquista ora</a></div>
+                    <div class="mb-30 ml-30">oppure <a href="#">acquista ora</a></div>
                     <hr>
-                    <h4 class="mt-30 ml-10">Punti salienti del piano</h4>
+                    <h4 class="mt-30 ml-30">Punti salienti del piano</h4>
                     <ul>
-                        <li><i class="fa-solid fa-check"></i> Cartelle off-line su dispositivi mobili</li>
-                        <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
-                        <li><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10">Cartelle off-line su dispositivi mobili</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10">Servizio assistenza 24/h</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="ml-10">Possibilità di personalizzazione totale</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -222,37 +279,46 @@
         <section>
             <div class="box-grande mt-100">
                 <div class="box-medio">
-                    <div class="box-piccolo bgc-acquamarine">
-                        <img class="img-2" src="./img/designit.svg" alt="">
+                    <div class="box-piccolo bgc-acquamarine relative">
+                        <img class="img-2 absolute" src="./img/designit.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-brown">
-                        <img class="img-2" src="./img/arizona_state_university.svg" alt="">
+                    <div class="box-piccolo bgc-brown relative">
+                        <img class="img-2 absolute" src="./img/arizona_state_university.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-blue">
-                        <img class="img-2" src="./img/university_of_florida.svg" alt="">
+                    <div class="box-piccolo bgc-blue relative">
+                        <img class="img-2 absolute" src="./img/university_of_florida.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-red">
-                        <img class="img-2" src="./img/topps.svg" alt="">
+                    <div class="box-piccolo bgc-red relative">
+                        <img class="img-2 absolute" src="./img/topps.svg" alt="">
                     </div>
                 </div>
                 <div class="box-medio bgc-lightgray al-it-start">
                     <img class="img-2-a mt-30 ml-30" src="./img/designit.svg" alt="">
                     <p class="fs-20 mt-30 ml-30 mr-30">"I membri del nostro team lavorano costantemente in Pesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
-                    <span class="ml-30">Morten Thomasen, Global IT Lead</span>
+                    <span class="ml-30 mt-50 pb-10">Morten Thomasen, Global IT Lead</span>
                 </div>
                 <div class="box-medio">
-                    <div class="box-piccolo bgc-red">
-                        <img class="img-2" src="./img/world_bicycle_relief.svg" alt="">
+                    <div class="box-piccolo bgc-red relative">
+                        <img class="img-2 absolute" src="./img/world_bicycle_relief.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-skyblue">
-                        <img class="img-2" src="./img/hearst_corp.svg" alt="">
+                    <div class="box-piccolo bgc-skyblue relative">
+                        <img class="img-2 absolute" src="./img/hearst_corp.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-purple">
-                        <img class="img-2" src="./img/lonely_planet.svg" alt="">
+                    <div class="box-piccolo bgc-purple relative">
+                        <img class="img-2 absolute" src="./img/lonely_planet.svg" alt="">
                     </div>
-                    <div class="box-piccolo bgc-yellow">
-                        <img class="img-2" src="./img/clear_channel.svg" alt="">
+                    <div class="box-piccolo bgc-yellow relative">
+                        <img class="img-2 absolute" src="./img/clear_channel.svg" alt="">
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- VII sezione -->
+        <section>
+            <div class="container-1">
+                <div class="box-l margin-auto pt-100 pb-100 flex space-between al-it-center">
+                    <h2 class="w-50">Porta Dropbox Business nella tua azienda</h2>
+                    <div class="button-white-2"><a href="#">Inizia la tua prova gratuita</a></div>
                 </div>
             </div>
         </section>

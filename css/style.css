@@ -12,11 +12,14 @@ ul{
 li{
     margin-top: 20px;
     margin-left: 10px;
+    /* text-indent: -1em; */
 }
 
 /* Tag */
 nav{
     background-color: white;
+    line-height: 25px;
+    z-index: 1;
 }
 
 h1{
@@ -32,6 +35,13 @@ h3{
 }
 
 /* Libreria */
+.h-650{
+    height: 650px;
+}
+
+.w-50{
+    width: 60%;
+}
 .fixed{
     position: fixed;
     left: 0;
@@ -125,8 +135,16 @@ h3{
     padding-bottom: 10px;
 }
 
+.pb-100{
+    padding-bottom: 100px;
+}
+
 .padding-top-50{
     padding-top: 50px;
+}
+
+.pt-100{
+    padding-top: 100px;
 }
 
 .ta-center{
@@ -176,6 +194,14 @@ h3{
 .bgc-lightgray{
     background-color: lightgray;
 }
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
 /* classi */
 .nav-element{
     display: inline-block;
@@ -185,6 +211,15 @@ h3{
 .nav-element > a{
     text-decoration: none;
     color: gray;
+}
+
+.nav-element img {
+    vertical-align: sub;
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    
 }
 
 /* container da 1 a */
@@ -228,13 +263,15 @@ h3{
 /* Box da a a  */
 .box-a{
     width: 40%;
+    left: 0;
 }
 .box-b{
     height: 400px;
     width: 100%;
     background-image: url(../img/jumbo.png);
     background-size:cover;
-    position: relative;
+    top: 3px;
+    left: 350px;
 }
 
 .box-c{
@@ -269,6 +306,11 @@ h3{
     width: 50%;
 }
 
+.box-l{
+    width: 50%;
+    flex-basis: content;
+}
+
 .box-cards{
     width: 30%;
     /* height: 300px; */
@@ -281,7 +323,7 @@ h3{
     width: 99vw;
     /* background-color: red; */
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .box-medio{
@@ -289,14 +331,14 @@ h3{
     /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .box-piccolo{
     /* height: 50%; */
     width: 50%;
     /* background-color: coral; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .img-partner{
@@ -308,8 +350,12 @@ h3{
 }
 
 .img-2{
-    width: 100%;
+    width: 40%;
     /* padding: 50%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .img-2-a{
@@ -332,6 +378,18 @@ h3{
     background-color: white;
     padding: 20px 20px;
     width: 50%;
+}
+
+.button-white-2{
+    background-color: white;
+    padding: 10px 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.button-white-2 a{
+    text-decoration: none;
+    color: black;
 }
 
 .prova-gratis{
