@@ -1,3 +1,14 @@
+/*  Rigo 12 Reset
+    Rigo 29 Tag
+    Rigo 53 Libreria personale
+    Rigo 197 Colori
+    Rigo 230 Classi
+    rigo 260 Container-1
+    Rigo 265 Box da 1 a 9
+    Rigo 306 Box da A a M + box vari + img
+    Rigo 405 Bottoni e icone
+     */
+
 /* Reset */
 *{
     margin: 0;
@@ -39,7 +50,7 @@ h3{
     font-size: 30px;
 }
 
-/* Libreria */
+/* Libreria personale */
 .h-650{
     height: 650px;
 }
@@ -171,8 +182,21 @@ h3{
     display: inline-block;
 }
 
+.overflow{
+    overflow: auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* Colori */
 .bgc-acquamarine{
-    background-color: aquamarine;
+    background-image: linear-gradient(to right, rgb(136, 250, 212), rgb(43, 248, 179), rgb(136, 225, 212));
 }
 
 .bgc-brown{
@@ -203,18 +227,12 @@ h3{
     background-color: lightgray;
 }
 
-.relative{
-    position: relative;
-}
-
-.absolute{
-    position: absolute;
-}
-
-/* classi */
+/* Classi */
 .nav-element{
     display: inline-block;
-    margin: 10px 15px;
+    margin: 0 15px;
+    padding: 15px 0;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-element > a{
@@ -227,16 +245,24 @@ h3{
 }
 
 .nav-element:hover{
-    text-decoration: underline;
+    border-bottom: 2px solid blue;
     
 }
 
-/* container da 1 a */
+.nav-logo{
+    padding: 0;
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: sub;
+    border-bottom: 2px solid transparent;
+}
+
+/* Container da 1 a 1 */
 .container-1{
     background-color: rgb(169, 223, 245);
 }
 
-/* Box da 1 a */
+/* Box da 1 a 9 */
 .box-1{
     width: 50%;
 }
@@ -273,11 +299,11 @@ h3{
 }
 
 .box-9{
-    width: 70%;
+    width: 60%;
     height: 400px;
 }
 
-/* Box da a a  */
+/* Box da A a M + box vari + img*/
 .box-a{
     width: 40%;
     left: 0;
@@ -342,7 +368,7 @@ h3{
 }
 
 .box-grande{
-    width: 99vw;
+    height: calc(100vw / 3);
     display: flex;
 }
 
@@ -369,6 +395,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 .img-2-a{
@@ -466,17 +493,13 @@ h3{
     display: block;
 }
 
+.domanda:hover .icon-domanda{
+    transform: rotate(180deg);
+}
+
 .risposta{
     display: none;
     padding: 20px;
-}
-
-.domanda:hover + .icon-domanda{
-    display: none;
-}
-
-.icon-risposta{
-     display: none;
 }
 
 .titolo-ul{
